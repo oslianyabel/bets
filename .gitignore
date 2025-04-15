@@ -1,0 +1,8 @@
+venv/
+.env
+images/
+script.py
+__pycache__
+records.log
+notas.txt
+commands.txt

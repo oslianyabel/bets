@@ -1,0 +1,27 @@
+# Web server
+flask
+gunicorn
+gevent
+
+# Telegram bot
+pytelegrambotapi
+
+# Database
+sqlalchemy
+
+# http client
+requests
+
+openai # AI response
+psycopg2
+python-multipart
+pydantic_settings
+
+# Logs
+rich
+asgi-correlation-id
+python-json-logger
+
+# Dev
+ruff
+isort
