@@ -8,12 +8,12 @@ pytelegrambotapi
 
 # Database
 sqlalchemy
+psycopg2
 
 # http client
 requests
 
 openai # AI response
-psycopg2
 python-multipart
 pydantic_settings
 
