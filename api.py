@@ -4,7 +4,6 @@ import os
 import time
 
 from flask import Flask, make_response, request
-from gevent import monkey
 from telebot.types import Update
 
 from bot import bot
@@ -13,8 +12,6 @@ from database import db
 from logging_conf import configure_logging
 from markups import menu_markup
 from utils import process_inline_button, send_message
-
-monkey.patch_all()
 
 configure_logging()
 logger = logging.getLogger("chatbot.api")
