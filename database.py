@@ -201,7 +201,7 @@ class DatabaseManager:
             ),
             Column("amount", Numeric(10, 2), nullable=False),
             Column("potential_win", Numeric(10, 2), nullable=False),
-            Column("status", SQLAlchemyEnum(BetStatus), nullable=False, server_default="pending"),
+            Column("status", SQLAlchemyEnum(BetStatus), nullable=False, server_default="PENDING"),
             Column("created_at", TIMESTAMP, nullable=False, server_default=func.now()),
             Column("settled_at", TIMESTAMP),
         ]
