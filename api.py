@@ -1,4 +1,4 @@
-# Desarrollado por OslianyAbel
+# Dev: OslianyAbel
 import logging
 import os
 import time
